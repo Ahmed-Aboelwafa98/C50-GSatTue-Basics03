@@ -52,7 +52,7 @@ namespace Assignment_03
 
             //string title = "Clean Code";
             //int pages = 464;
-            
+
             //Console.WriteLine( title + pages);
 
             #endregion
@@ -66,7 +66,14 @@ namespace Assignment_03
             //Console.WriteLine($" {title}  {pages}");
 
             #endregion
+            #region Question 07
+            //Build the same sentence again, but using string.Format().
 
+            string title = "Clean Code";
+            int pages = 464;
+
+            Console.WriteLine(string.Format("Book: {0}, Pages: {1}", title, pages));
+            #endregion
 
 
 
