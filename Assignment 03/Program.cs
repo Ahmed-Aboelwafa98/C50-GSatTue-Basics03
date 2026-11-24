@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Text;
 
 namespace Assignment_03
 {
@@ -23,7 +24,16 @@ namespace Assignment_03
             //Console.WriteLine(ReferenceEquals(a, b));
 
             #endregion
+            #region Question 03
+            //Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same
+            //object.Print the final result
 
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("Book List");
+            //sb.Append(" - Updated");
+            //Console.WriteLine(sb.ToString());
+
+            #endregion
 
 
 
