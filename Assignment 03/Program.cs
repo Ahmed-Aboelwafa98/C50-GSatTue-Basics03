@@ -52,6 +52,16 @@ namespace Assignment_03
 
             //string title = "Clean Code";
             //int pages = 464;
+            
+            //Console.WriteLine( title + pages);
+
+            #endregion
+            #region Question 06
+            //Build the same sentence as above, but using string interpolation ($"...")
+
+
+            //string title = "Clean Code";
+            //int pages = 464;
             //Console.WriteLine($"Book: {title} , Pages: {pages}");
             //Console.WriteLine($" {title}  {pages}");
 
