@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 
 namespace Assignment_03
@@ -118,7 +119,19 @@ namespace Assignment_03
             //};
 
             #endregion
+            #region Question 11
+            //Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };, use a for loop
+            //to print each book with its position number, like 1.Clean Code.
+            //Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };, use a for loop
+            //to print each book with its position number, like 1.Clean Code.
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    //Console.WriteLine($"{i + 1}. {books[i]}");
+                
+            //}
 
+            #endregion
 
 
 
