@@ -1,6 +1,7 @@
 ﻿using System.Drawing;
 using System.Runtime.Intrinsics.X86;
 using System.Text;
+using System.Timers;
 
 namespace Assignment_03
 {
@@ -143,12 +144,19 @@ namespace Assignment_03
             //    }
             //    break;
             //}
-
+            #endregion
+            #region Question 13
+            //Write a do -while loop that prints "Checking book..." exactly 3 times.
+            //int count = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    count++;
+            //} while (count < 3);
 
 
 
             #endregion
-
 
 
         }
