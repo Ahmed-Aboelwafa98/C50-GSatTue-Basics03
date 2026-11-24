@@ -7,6 +7,8 @@ namespace Assignment_03
 {
     internal class Program
     {
+        private static string[] books;
+
         static void Main(string[] args)
         {
             #region Question 01
@@ -188,6 +190,22 @@ namespace Assignment_03
             //    }
             //    Console.WriteLine(book);
             //}
+            #endregion
+            #region Question 17
+            //Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty,
+            //use return to exit the method early instead of printing anything.
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //static void PrintFirstBook(string[] books)
+            //{
+            //    if (books.Length == 0)
+            //        return;
+
+            //    Console.WriteLine(books[0]);
+            //}
+
+            //PrintFirstBook(books);
+
             #endregion
 
         }
